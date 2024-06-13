@@ -1,0 +1,236 @@
+@media screen and (max-width: 1400px) {
+  #profile {
+    height: 83vh;
+    margin-bottom: 6rem;
+  }
+  .about-containers {
+    flex-wrap: wrap;
+  }
+  #contact,
+  #projects {
+    height: fit-content;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #desktop-nav {
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex;
+    position: relative;
+    right: -8%;
+  }
+  .logo{
+    position: relative;
+    left: -13%;
+  }
+  #experience,
+  .experience-details-container {
+    margin-top: 2rem;
+  }
+  #profile,
+  .section-container {
+    display: block;
+  }
+  
+  .section__pic-container img{
+    height: 280px;
+  }
+  .section__text{
+    position: relative;
+    bottom: -17%;
+  }
+  .arrow {
+    display: none;
+  }
+  section,
+  .section-container {
+    height: fit-content;
+  }
+  section {
+    margin: 0 5%;
+  }
+  .section__pic-container {
+    width: 275px;
+    height: 275px;
+    margin: 0 auto 2rem;
+  }
+  .about-containers {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  
+  #profile {
+    height: 83vh;
+    margin-bottom: 0;
+  }
+  .menu-links a {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.6rem;
+    color: black;
+    text-decoration: none;
+    transition: all 0.3 ease-in-out;
+    position: relative;
+    z-index: 1;
+    background-color: white;
+    border: 1px solid white;
+  }
+  
+  article {
+    font-size: 1rem;
+  }
+  .section__pic-container img{
+    height: 220px;
+    margin-top: 6%;
+  }
+  .section__text{
+    position: relative;
+    bottom: -8%;
+  }
+  footer nav {
+    height: fit-content;
+    margin-bottom: 2rem;
+  }
+  .about-containers,
+  .about-details-container {
+    position: relative;
+    margin-top: -20%;
+  }
+  .about-containers,
+  .contact-info-upper-container,
+  .btn-container {
+    flex-wrap: wrap;
+  }
+  
+  .experience-details-container{
+    
+    margin-top: 25%;
+  }
+  .experience-details-container-1
+{
+  display: flex;
+  position: relative;
+  height:400px;
+  width: 540px;
+}
+  .Netlify{
+    position: relative;
+    left: 0%;
+  }
+  .Netlify-1{
+    position: relative;
+    right: 0%;
+  }
+  .vite{
+    position: relative;
+    left: -0%;
+  }
+  .vite-1{
+    position: relative;
+    right: 0%;
+  }
+  .contact-info-container {
+    margin: 0;
+  }
+  .section__pic-container-2 img{
+    height: 240px;
+    margin-top: 2%;
+    position: relative;
+    left: 22%;
+  }
+  .contact-left-title p{
+    font-size: 16px;
+    margin-top: 30%;
+  }
+  .contact-left-title h1{
+    font-size: 28px;
+  }
+  .contact-left-title table{
+    position: relative;
+    height: 60vh;
+    width: 360px;
+    left: 0%;
+  }
+  .contact-inputs{
+    width: 300px;
+    height: 35px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 300;
+    color: #666;
+    border-radius: 50px;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+  }
+  .contact-left textarea{
+    height: 175px;
+    padding-top: 15px;
+    border-radius: 20px;
+  }
+  .contact-left button{
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 33%;
+    padding: 10px 23px;
+    font-size: 16px;
+    color: black;
+    gap: 10px;
+    border: 1px solid black;
+    border-radius: 50px;
+    background: rgba(219, 212, 212, 0.5);
+    cursor: pointer;
+    margin-top: 2%;
+  }
+  
+  .contact-info-container p,
+  .nav-links li a {
+    font-size: 1rem;
+  }
+  .experience-sub-title {
+    font-size: 1.25rem;
+  }
+  .logo {
+    font-size: 1.5rem;
+  }
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+  .section__pic-container {
+    width: auto;
+    height: 46vw;
+    justify-content: center;
+  }
+  .section__text__p2 {
+    font-size: 1.25rem;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .text-container {
+    text-align: justify;
+  }
+  .footer{
+    position: relative;
+    margin-top: 25%;
+    height: 20vh;
+  }
+  .footer p{
+    position: relative;
+    margin-top: -5%;
+  }
+      
+}
+
+
+
+
